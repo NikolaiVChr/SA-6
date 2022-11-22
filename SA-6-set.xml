@@ -5,8 +5,8 @@
 
     <sim>
         <author>pinto, Leto</author>
-        <description>2K12</description>
-        <long-description>2K12 (Ky6) is a Soviet low to medium-level air defence system designed to protect ground forces from air attack.</long-description>
+        <description>SA-6</description>
+        <long-description>SA-6 (Ky6) is a Soviet low to medium-level air defence system designed to protect ground forces from air attack.</long-description>
         <status>alpha</status>
         <aircraft-version>0.1</aircraft-version>
         <!--Model Source:https://sketchfab.com/3d-models/2k12-kub-4e2e8506c9e546b3b7da1554db8185bc-->
@@ -17,7 +17,7 @@
         <aircraft-operator>KPN</aircraft-operator>
 
         <model>
-            <path>Aircraft/2K12-KUB/Models/2K12.xml</path>
+            <path>Aircraft/SA-6/Models/SA-6.xml</path>
 
             <!-- Uncloak weather balloons visiting Earth -->
             <always-show-in-MP type="bool">true</always-show-in-MP>
@@ -92,7 +92,7 @@
         <chase-distance-m type="double" archive="y">-350.0</chase-distance-m>
 
         <hud>
-            <path n="1">Aircraft/2K12-KUB/Hud/hud.xml</path>
+            <path n="1">Aircraft/SA-6/Hud/hud.xml</path>
             <visibility n="1">true</visibility>
             <font>
                 <size type="float">11.0</size>
@@ -116,7 +116,7 @@
         <menubar>
             <default>
                 <menu n="100">
-                    <label>2K12-KUB</label>
+                    <label>SA-6</label>
                     <enabled type="bool">true</enabled>
                     <item>
                         <label>Reload</label>
@@ -240,7 +240,7 @@
         </weight>
 	
         <armament>
-				<models type="string">Aircraft/2K12-KUB/Models/Armament/Weapons/</models>
+				<models type="string">Aircraft/SA-6/Models/Armament/Weapons/</models>
                 <modelsUseCase type="bool">true</modelsUseCase>
                 <modelsUpperCase type="bool">true</modelsUpperCase>
                 <MP-lat type="string">rotors/main/blade[0]/flap-deg</MP-lat>
@@ -363,26 +363,26 @@
 	
     <nasal>
         <notifications>
-            <file>Aircraft/2K12-KUB/Nasal/ArmamentNotification.nas</file>
-            <file>Aircraft/2K12-KUB/Nasal/GeoBridgedTransmitter.nas</file>
+            <file>Aircraft/SA-6/Nasal/ArmamentNotification.nas</file>
+            <file>Aircraft/SA-6/Nasal/GeoBridgedTransmitter.nas</file>
         </notifications>
         <carrier>
-            <file>Aircraft/2K12-KUB/Nasal/fdm.nas</file>
+            <file>Aircraft/SA-6/Nasal/fdm.nas</file>
         </carrier>
 		<damage>
-			<file>Aircraft/2K12-KUB/Nasal/damage.nas</file>
+			<file>Aircraft/SA-6/Nasal/damage.nas</file>
 		</damage>
 		<radar_logic>
-            <file>Aircraft/2K12-KUB/Nasal/radar-logic.nas</file>
+            <file>Aircraft/SA-6/Nasal/radar-logic.nas</file>
         </radar_logic>
         <vector>
-            <file>Aircraft/2K12-KUB/Nasal/vector.nas</file><!-- needed by the guided-missiles -->
+            <file>Aircraft/SA-6/Nasal/vector.nas</file><!-- needed by the guided-missiles -->
         </vector>
         <armament>
-            <file>Aircraft/2K12-KUB/Nasal/guided-missiles.nas</file>
+            <file>Aircraft/SA-6/Nasal/guided-missiles.nas</file>
         </armament>
 		<fire_control>
-			<file>Aircraft/2K12-KUB/Nasal/fire-control.nas</file>
+			<file>Aircraft/SA-6/Nasal/fire-control.nas</file>
 		</fire_control>
     </nasal>
 

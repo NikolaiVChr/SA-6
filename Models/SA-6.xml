@@ -2,7 +2,7 @@
 
 <PropertyList>
 
- <path>2k12.ac</path>
+ <path>SA-6.ac</path>
 
  <!--animation>
     <object-name>hatchR</object-name>
@@ -69,7 +69,7 @@
 </animation>
 
  <model>
-    <path>Aircraft/2K12-KUB/Models/smoke.xml</path>
+    <path>Aircraft/SA-6/Models/smoke.xml</path>
     <offsets>
       <x-m>-0.053422</x-m>
       <y-m>0.008531</y-m>
@@ -79,7 +79,7 @@
   </model>
 
  <model>
-    <path>Aircraft/2K12-KUB/Models/fire.xml</path>
+    <path>Aircraft/SA-6/Models/fire.xml</path>
     <offsets>
       <x-m>-0.053422</x-m>
       <y-m>0.008531</y-m>
@@ -89,7 +89,7 @@
   </model>
 
  <model>
-    <path>Aircraft/2K12-KUB/Models/smoke.xml</path>
+    <path>Aircraft/SA-6/Models/smoke.xml</path>
     <offsets>
       <x-m>-0.053422</x-m>
       <y-m>0.008531</y-m>
@@ -99,7 +99,7 @@
   </model>
 
  <model>
-    <path>Aircraft/2K12-KUB/Models/fire.xml</path>
+    <path>Aircraft/SA-6/Models/fire.xml</path>
     <offsets>
       <x-m>-0.053422</x-m>
       <y-m>0.008531</y-m>
@@ -109,7 +109,7 @@
   </model>
 
  <model>
-    <path>Aircraft/2K12-KUB/Models/smoke.xml</path>
+    <path>Aircraft/SA-6/Models/smoke.xml</path>
     <offsets>
       <x-m>-0.053422</x-m>
       <y-m>0.008531</y-m>
@@ -119,7 +119,7 @@
   </model>
 
  <model>
-    <path>Aircraft/2K12-KUB/Models/fire.xml</path>
+    <path>Aircraft/SA-6/Models/fire.xml</path>
     <offsets>
       <x-m>-0.053422</x-m>
       <y-m>0.008531</y-m>
