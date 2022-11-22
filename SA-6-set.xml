@@ -264,7 +264,7 @@
                     <type-id type="int">96</type-id>
                     <short-name type="string">3M9</short-name>
                     <long-name type="string">Anti Aircraft Guided Missile</long-name>
-                    <max-fire-range-nm type="int">43</max-fire-range-nm>
+                    <max-fire-range-nm type="int">18</max-fire-range-nm>
                     <cross-section-sqft type="double">1.42</cross-section-sqft>
                     <weight-launch-lbs>1333</weight-launch-lbs><!-- https://missilery.info/missile/kub -->
 
